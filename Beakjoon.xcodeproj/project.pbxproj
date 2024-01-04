@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871248442B469A7300721B16 /* Beakjoon6236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871248432B469A7300721B16 /* Beakjoon6236.swift */; };
+		871248462B46A5BB00721B16 /* Beakjoon1024.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871248452B46A5BB00721B16 /* Beakjoon1024.swift */; };
+		872C881C2B43EDCC00DC9B39 /* Beakjoon23630.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872C881B2B43EDCC00DC9B39 /* Beakjoon23630.swift */; };
 		87AFEDD92B42C4C200B7D3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFEDD82B42C4C200B7D3A2 /* main.swift */; };
+		87D5BEB32B45444E00DC5E81 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB22B45444E00DC5E81 /* LinkedList.swift */; };
+		87D5BEB52B4545CA00DC5E81 /* Beakjoon18232.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB42B4545CA00DC5E81 /* Beakjoon18232.swift */; };
+		87D5BEB72B4553DD00DC5E81 /* Beakjoon9148.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB62B4553DD00DC5E81 /* Beakjoon9148.swift */; };
+		87D5BEB92B45578000DC5E81 /* Beakjoon11867.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB82B45578000DC5E81 /* Beakjoon11867.swift */; };
+		87D5BEBB2B455FC700DC5E81 /* Beakjoon2716.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */; };
+		87EF60DC2B43CE9100F8B0D8 /* Beakjoon17103.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF60DB2B43CE9100F8B0D8 /* Beakjoon17103.swift */; };
+		87EF60DE2B43D65200F8B0D8 /* Beakjoon6615.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF60DD2B43D65200F8B0D8 /* Beakjoon6615.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		871248432B469A7300721B16 /* Beakjoon6236.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon6236.swift; sourceTree = "<group>"; };
+		871248452B46A5BB00721B16 /* Beakjoon1024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon1024.swift; sourceTree = "<group>"; };
+		872C881B2B43EDCC00DC9B39 /* Beakjoon23630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon23630.swift; sourceTree = "<group>"; };
 		87AFEDD52B42C4C200B7D3A2 /* Beakjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Beakjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AFEDD82B42C4C200B7D3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		87D5BEB22B45444E00DC5E81 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		87D5BEB42B4545CA00DC5E81 /* Beakjoon18232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon18232.swift; sourceTree = "<group>"; };
+		87D5BEB62B4553DD00DC5E81 /* Beakjoon9148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon9148.swift; sourceTree = "<group>"; };
+		87D5BEB82B45578000DC5E81 /* Beakjoon11867.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon11867.swift; sourceTree = "<group>"; };
+		87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon2716.swift; sourceTree = "<group>"; };
+		87EF60DB2B43CE9100F8B0D8 /* Beakjoon17103.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon17103.swift; sourceTree = "<group>"; };
+		87EF60DD2B43D65200F8B0D8 /* Beakjoon6615.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon6615.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +77,35 @@
 		87AFEDD72B42C4C200B7D3A2 /* Beakjoon */ = {
 			isa = PBXGroup;
 			children = (
+				87D5BEB12B45444600DC5E81 /* Algorithm */,
+				87AFEDE02B42C65C00B7D3A2 /* Silver2 */,
 				87AFEDD82B42C4C200B7D3A2 /* main.swift */,
 			);
 			path = Beakjoon;
+			sourceTree = "<group>";
+		};
+		87AFEDE02B42C65C00B7D3A2 /* Silver2 */ = {
+			isa = PBXGroup;
+			children = (
+				87EF60DB2B43CE9100F8B0D8 /* Beakjoon17103.swift */,
+				87EF60DD2B43D65200F8B0D8 /* Beakjoon6615.swift */,
+				872C881B2B43EDCC00DC9B39 /* Beakjoon23630.swift */,
+				87D5BEB42B4545CA00DC5E81 /* Beakjoon18232.swift */,
+				87D5BEB62B4553DD00DC5E81 /* Beakjoon9148.swift */,
+				87D5BEB82B45578000DC5E81 /* Beakjoon11867.swift */,
+				87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */,
+				871248432B469A7300721B16 /* Beakjoon6236.swift */,
+				871248452B46A5BB00721B16 /* Beakjoon1024.swift */,
+			);
+			path = Silver2;
+			sourceTree = "<group>";
+		};
+		87D5BEB12B45444600DC5E81 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				87D5BEB22B45444E00DC5E81 /* LinkedList.swift */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +167,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AFEDD92B42C4C200B7D3A2 /* main.swift in Sources */,
+				872C881C2B43EDCC00DC9B39 /* Beakjoon23630.swift in Sources */,
+				87D5BEB32B45444E00DC5E81 /* LinkedList.swift in Sources */,
+				87D5BEB72B4553DD00DC5E81 /* Beakjoon9148.swift in Sources */,
+				87EF60DC2B43CE9100F8B0D8 /* Beakjoon17103.swift in Sources */,
+				871248462B46A5BB00721B16 /* Beakjoon1024.swift in Sources */,
+				871248442B469A7300721B16 /* Beakjoon6236.swift in Sources */,
+				87EF60DE2B43D65200F8B0D8 /* Beakjoon6615.swift in Sources */,
+				87D5BEB92B45578000DC5E81 /* Beakjoon11867.swift in Sources */,
+				87D5BEBB2B455FC700DC5E81 /* Beakjoon2716.swift in Sources */,
+				87D5BEB52B4545CA00DC5E81 /* Beakjoon18232.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
