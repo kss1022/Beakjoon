@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		871248442B469A7300721B16 /* Beakjoon6236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871248432B469A7300721B16 /* Beakjoon6236.swift */; };
 		871248462B46A5BB00721B16 /* Beakjoon1024.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871248452B46A5BB00721B16 /* Beakjoon1024.swift */; };
+		871248482B46AD1600721B16 /* Beakjoon2210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871248472B46AD1600721B16 /* Beakjoon2210.swift */; };
 		872C881C2B43EDCC00DC9B39 /* Beakjoon23630.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872C881B2B43EDCC00DC9B39 /* Beakjoon23630.swift */; };
+		873B2DDA2B4BCB95004359B9 /* Beakjoon2178.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B2DD92B4BCB95004359B9 /* Beakjoon2178.swift */; };
+		873B2DDC2B4BD164004359B9 /* Beakjoon2667.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B2DDB2B4BD164004359B9 /* Beakjoon2667.swift */; };
+		873B2DDE2B4BE276004359B9 /* Beakjoon1149.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B2DDD2B4BE276004359B9 /* Beakjoon1149.swift */; };
 		87AFEDD92B42C4C200B7D3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AFEDD82B42C4C200B7D3A2 /* main.swift */; };
 		87D5BEB32B45444E00DC5E81 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB22B45444E00DC5E81 /* LinkedList.swift */; };
 		87D5BEB52B4545CA00DC5E81 /* Beakjoon18232.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEB42B4545CA00DC5E81 /* Beakjoon18232.swift */; };
@@ -18,6 +22,7 @@
 		87D5BEBB2B455FC700DC5E81 /* Beakjoon2716.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */; };
 		87EF60DC2B43CE9100F8B0D8 /* Beakjoon17103.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF60DB2B43CE9100F8B0D8 /* Beakjoon17103.swift */; };
 		87EF60DE2B43D65200F8B0D8 /* Beakjoon6615.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EF60DD2B43D65200F8B0D8 /* Beakjoon6615.swift */; };
+		87F6B2362B47D5D800E5DEC1 /* Beakjoon16948.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6B2352B47D5D800E5DEC1 /* Beakjoon16948.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +40,11 @@
 /* Begin PBXFileReference section */
 		871248432B469A7300721B16 /* Beakjoon6236.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon6236.swift; sourceTree = "<group>"; };
 		871248452B46A5BB00721B16 /* Beakjoon1024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon1024.swift; sourceTree = "<group>"; };
+		871248472B46AD1600721B16 /* Beakjoon2210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon2210.swift; sourceTree = "<group>"; };
 		872C881B2B43EDCC00DC9B39 /* Beakjoon23630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon23630.swift; sourceTree = "<group>"; };
+		873B2DD92B4BCB95004359B9 /* Beakjoon2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon2178.swift; sourceTree = "<group>"; };
+		873B2DDB2B4BD164004359B9 /* Beakjoon2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon2667.swift; sourceTree = "<group>"; };
+		873B2DDD2B4BE276004359B9 /* Beakjoon1149.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon1149.swift; sourceTree = "<group>"; };
 		87AFEDD52B42C4C200B7D3A2 /* Beakjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Beakjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AFEDD82B42C4C200B7D3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		87D5BEB22B45444E00DC5E81 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 		87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon2716.swift; sourceTree = "<group>"; };
 		87EF60DB2B43CE9100F8B0D8 /* Beakjoon17103.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon17103.swift; sourceTree = "<group>"; };
 		87EF60DD2B43D65200F8B0D8 /* Beakjoon6615.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon6615.swift; sourceTree = "<group>"; };
+		87F6B2352B47D5D800E5DEC1 /* Beakjoon16948.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beakjoon16948.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		873B2DDF2B4BE2A8004359B9 /* Silver1 */ = {
+			isa = PBXGroup;
+			children = (
+				87F6B2352B47D5D800E5DEC1 /* Beakjoon16948.swift */,
+				873B2DD92B4BCB95004359B9 /* Beakjoon2178.swift */,
+				873B2DDB2B4BD164004359B9 /* Beakjoon2667.swift */,
+				873B2DDD2B4BE276004359B9 /* Beakjoon1149.swift */,
+			);
+			path = Silver1;
+			sourceTree = "<group>";
+		};
 		87AFEDCC2B42C4C200B7D3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				87D5BEB12B45444600DC5E81 /* Algorithm */,
+				873B2DDF2B4BE2A8004359B9 /* Silver1 */,
 				87AFEDE02B42C65C00B7D3A2 /* Silver2 */,
 				87AFEDD82B42C4C200B7D3A2 /* main.swift */,
 			);
@@ -96,6 +118,7 @@
 				87D5BEBA2B455FC700DC5E81 /* Beakjoon2716.swift */,
 				871248432B469A7300721B16 /* Beakjoon6236.swift */,
 				871248452B46A5BB00721B16 /* Beakjoon1024.swift */,
+				871248472B46AD1600721B16 /* Beakjoon2210.swift */,
 			);
 			path = Silver2;
 			sourceTree = "<group>";
@@ -170,10 +193,15 @@
 				872C881C2B43EDCC00DC9B39 /* Beakjoon23630.swift in Sources */,
 				87D5BEB32B45444E00DC5E81 /* LinkedList.swift in Sources */,
 				87D5BEB72B4553DD00DC5E81 /* Beakjoon9148.swift in Sources */,
+				87F6B2362B47D5D800E5DEC1 /* Beakjoon16948.swift in Sources */,
+				873B2DDE2B4BE276004359B9 /* Beakjoon1149.swift in Sources */,
 				87EF60DC2B43CE9100F8B0D8 /* Beakjoon17103.swift in Sources */,
 				871248462B46A5BB00721B16 /* Beakjoon1024.swift in Sources */,
 				871248442B469A7300721B16 /* Beakjoon6236.swift in Sources */,
+				871248482B46AD1600721B16 /* Beakjoon2210.swift in Sources */,
+				873B2DDC2B4BD164004359B9 /* Beakjoon2667.swift in Sources */,
 				87EF60DE2B43D65200F8B0D8 /* Beakjoon6615.swift in Sources */,
+				873B2DDA2B4BCB95004359B9 /* Beakjoon2178.swift in Sources */,
 				87D5BEB92B45578000DC5E81 /* Beakjoon11867.swift in Sources */,
 				87D5BEBB2B455FC700DC5E81 /* Beakjoon2716.swift in Sources */,
 				87D5BEB52B4545CA00DC5E81 /* Beakjoon18232.swift in Sources */,

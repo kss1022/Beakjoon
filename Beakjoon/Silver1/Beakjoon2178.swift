@@ -22,7 +22,7 @@ class Beakjoon2178{
         }
         
         
-        var result = solution(maze: maze, n: n, m: m)
+        let result = solution(maze: maze, n: n, m: m)
         print("\(result)")
     }
 
