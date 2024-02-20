@@ -12,7 +12,7 @@ class Beakjoon11054{
     func main(){
         let _ = Int(readLine()!)!
         
-        var nums = readLine()!.split(separator: " ")
+        let nums = readLine()!.split(separator: " ")
             .map(String.init)
             .compactMap(Int.init)
 
