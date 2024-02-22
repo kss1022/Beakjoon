@@ -35,9 +35,7 @@ class Beakjoon2183{
 
             for j in stride(from: 4, to: i, by: +2){
                 mem[i] += mem[i-j] * 2
-            }
-            
-            mem[i]
+            }            
         }
                 
         print("\(mem[n])")
