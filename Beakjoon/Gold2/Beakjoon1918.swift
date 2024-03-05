@@ -27,34 +27,50 @@ class Beakjoon1918{
         
         
         for char in notation{
-            if !isOperator.contains(char){   //isOperand
+            if isOperand(char){   //isOperand
                 result.append(char)
                 continue
             }
-            
-            
+                        
             if char == "("{
                 stack.append(char)
                 continue
             }
             
             if char == ")"{
-                while true{
-                    let pop = stack.removeLast()
-                    if pop == "("{
-                        break
-                    }
-                    result.append(pop)
-                }
+               appendWhileClose()
                 continue
             }
-            
             
             if stack.isEmpty{
                 stack.append(char)
                 continue
             }
             
+           appendWhileMinPriority(char)
+        }
+        
+        print(result + stack.reversed())
+        
+        
+        
+        
+        
+        func isOperand(_ char: Character) -> Bool{
+            !isOperator.contains(char)
+        }
+                        
+        func appendWhileClose(){
+            while true{
+                let pop = stack.removeLast()
+                if pop == "("{
+                    break
+                }
+                result.append(pop)
+            }
+        }
+        
+        func appendWhileMinPriority(_ char: Character){
             while !stack.isEmpty{
                 if stack.last! == "("{
                     break
@@ -68,8 +84,6 @@ class Beakjoon1918{
             }
             stack.append(char)
         }
-        
-        print(result + stack.reversed())
     }
 
 }
