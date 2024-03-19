@@ -114,7 +114,7 @@ class Beakjoon7453{
         var result = 0
         for i in 0..<n{
             for j in 0..<n{
-                var cSumD = -(c[i] + d[j])
+                let cSumD = -(c[i] + d[j])
                 result += (sums[cSumD] ?? 0)
             }
         }

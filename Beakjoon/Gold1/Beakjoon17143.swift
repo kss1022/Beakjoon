@@ -171,7 +171,7 @@ class Beakjoon17143{
 
 
     func mod(_ R: Int, _ C: Int, _ direction: (Int, Int)) -> Int{
-        var size = direction.1 == 0 ? R : C
+        let size = direction.1 == 0 ? R : C
         return 2 * (size - 1)
     }
 

@@ -25,7 +25,6 @@ class Beakjoon4195{
         var parents = [String: String]()
         var counts = [String: Int]()
         
-        var result = ""
         for _ in 0..<n{
             let relationship = readLine()!.split(separator: " ").map(String.init)
             let a = relationship[0]

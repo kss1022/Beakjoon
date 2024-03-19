@@ -32,6 +32,9 @@ public struct MyPriorityQueue<T: Comparable>{
     }
     
     
+    public var count: Int { return heap.count }
+
+    
     
     private mutating func swim(_ index: Int){
         var index = index

@@ -18,7 +18,7 @@ class Beakjoon1167{
             count: V
         )
         
-        for i in 0..<V{
+        for _ in 0..<V{
             let edge = readLine()!.split(separator: " ")
                 .compactMap { Int(String($0)) }
            

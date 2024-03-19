@@ -220,20 +220,20 @@ final class Beakjoon19236{
 
 
 
-    extension Rotate: CustomStringConvertible{
-        var description: String{
-            switch self {
-            case .rotate0: return "↑"
-            case .rotate325: return "↖"
-            case .rotate270: return "←"
-            case .rotate225: return "↙"
-            case .rotate180: return "↓"
-            case .rotate125: return "↘"
-            case .rotate90: return  "→"
-            case .rotate45: return  "↗"
-            }
-        }
-    }
+//    extension Rotate: CustomStringConvertible{
+//        var description: String{
+//            switch self {
+//            case .rotate0: return "↑"
+//            case .rotate325: return "↖"
+//            case .rotate270: return "←"
+//            case .rotate225: return "↙"
+//            case .rotate180: return "↓"
+//            case .rotate125: return "↘"
+//            case .rotate90: return  "→"
+//            case .rotate45: return  "↗"
+//            }
+//        }
+//    }
 
 
 
