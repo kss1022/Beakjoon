@@ -54,7 +54,6 @@ class Beakjoon11003{
     }
 
 
-
     struct Dequeue<T> {
         private var frontStack = [T]()
         private var rearStack = [T]()
@@ -152,5 +151,39 @@ class Beakjoon11003{
             return str
         }
     }
+    
+    //    Use PriorityQueue
+    //    func findMinimunNum(_ n: Int, _ L: Int, _ nums: [Int]){
+    //
+    //        var queue = PriorityQueue<Candidate>(ascending: true)
+    //
+    //
+    //        var results = ""
+    //
+    //        for i in 0..<n{
+    //            queue.push(Candidate(index: i, num: nums[i]))
+    //
+    //            while queue.first!.index <= i-L{
+    //                _ = queue.pop()
+    //            }
+    //
+    //            results.append("\(queue.first!.num) ")
+    //        }
+    //
+    //        print(results)
+    //    }
+    //
+    //    struct Candidate: Comparable{
+    //        let index: Int
+    //        let num: Int
+    //
+    //        static func < (lhs: Candidate, rhs: Candidate) -> Bool {
+    //            if lhs.num == rhs.num{
+    //                return lhs.index < rhs.index
+    //            }
+    //
+    //            return lhs.num < rhs.num
+    //        }
+    //    }
 
 }
